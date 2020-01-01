@@ -1,0 +1,40 @@
+{
+  "name": "PzKit",
+  "version": "0.1.0",
+  "summary": "A short description of PzKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sawrysc@163.com/PzKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sawrysc@163.com": "jiarui.li@carrobot.com"
+  },
+  "source": {
+    "git": "https://github.com/sawrysc@163.com/PzKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Crash",
+  "dependencies": {
+    "BSBacktraceLogger": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Crash",
+      "source_files": "PzKit/Classes/Srouce/Crash/**/*",
+      "resource_bundles": {
+        "PzKit": "PzKit/Classes/Resource/**/*"
+      }
+    },
+    {
+      "name": "Monitor",
+      "source_files": "PzKit/Classes/Srouce/Monitor/**/*"
+    }
+  ]
+}

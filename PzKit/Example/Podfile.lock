@@ -1,0 +1,26 @@
+PODS:
+  - BSBacktraceLogger (0.0.1)
+  - PzKit/Crash (0.1.0):
+    - BSBacktraceLogger
+  - PzKit/Monitor (0.1.0):
+    - BSBacktraceLogger
+
+DEPENDENCIES:
+  - PzKit/Crash (from `../`)
+  - PzKit/Monitor (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BSBacktraceLogger
+
+EXTERNAL SOURCES:
+  PzKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
+  PzKit: b541b077f82f6395b5bac844615d90bf37c9afac
+
+PODFILE CHECKSUM: 206e5ddd93a2afd0e7df991459416d9fc555460a
+
+COCOAPODS: 1.8.4

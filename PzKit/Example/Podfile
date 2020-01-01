@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+#use_frameworks!
+#inhibit_all_warnings! #消除第三方仓库的警告
+source 'git@github.com:CocoaPods/Specs.git'
+
+target 'PzKit_Example' do
+  #  pod 'PzKit', :path => '../'
+  pod 'PzKit', :subspecs => ['Crash','Monitor'],  :path => '../'
+  target 'PzKit_Tests' do
+    inherit! :search_paths
+    
+    
+  end
+end
